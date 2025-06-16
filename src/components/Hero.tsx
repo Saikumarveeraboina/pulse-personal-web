@@ -52,7 +52,7 @@ const Hero = () => {
             <Button 
               size="lg"
               className="gradient-electric hover:scale-105 transition-all duration-300 shadow-lg px-8 py-3 text-lg font-semibold"
-              onClick={() => window.open("#resume", "_blank")}
+              onClick={() => window.open("https://pdf.ac/3fK5lP", "_blank")}
             >
               View Resume
             </Button>
