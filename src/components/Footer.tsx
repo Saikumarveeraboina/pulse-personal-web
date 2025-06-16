@@ -20,7 +20,7 @@ const Footer = () => {
     {
       name: "Email",
       icon: "📧",
-      url: "mailto:saikumar.dev@email.com"
+      url: "mailto:veeraboinasai123@gmail.com"
     }
   ];
 
@@ -94,19 +94,19 @@ const Footer = () => {
               <div className="flex items-center space-x-3 text-muted-foreground">
                 <span>📧</span>
                 <a 
-                  href="mailto:saikumar.dev@email.com"
+                  href="mailto:veeraboinasai123@gmail.com"
                   className="hover:gradient-text transition-colors duration-300"
                 >
-                  saikumar.dev@email.com
+                  veeraboinasai123@gmail.com
                 </a>
               </div>
               <div className="flex items-center space-x-3 text-muted-foreground">
                 <span>📱</span>
                 <a 
-                  href="tel:+919876543210"
+                  href="tel:+917780601401"
                   className="hover:gradient-text transition-colors duration-300"
                 >
-                  +91 9876543210
+                  +91 7780601401
                 </a>
               </div>
               <div className="flex items-center space-x-3 text-muted-foreground">

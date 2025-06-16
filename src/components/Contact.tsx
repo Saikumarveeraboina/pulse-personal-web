@@ -61,14 +61,14 @@ const Contact = () => {
     {
       icon: "📧",
       title: "Email",
-      value: "saikumar.dev@email.com",
-      link: "mailto:saikumar.dev@email.com"
+      value: "veeraboinasai123@gmail.com",
+      link: "mailto:veeraboinasai123@gmail.com"
     },
     {
       icon: "📱",
       title: "Phone",
-      value: "+91 9876543210",
-      link: "tel:+919876543210"
+      value: "+91 7780601401",
+      link: "tel:+917780601401"
     },
     {
       icon: "📍",

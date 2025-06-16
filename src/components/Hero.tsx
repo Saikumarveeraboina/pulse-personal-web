@@ -36,20 +36,6 @@ const Hero = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <div className="animate-fade-in">
-          {/* Profile Image */}
-          <div className="mb-8 flex justify-center">
-            <div className="relative">
-              <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-electric-400 shadow-2xl animate-float">
-                <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face"
-                  alt="Saikumar Profile"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="absolute -inset-1 gradient-electric rounded-full opacity-75 blur animate-pulse"></div>
-            </div>
-          </div>
-
           {/* Typing Animation */}
           <div className="mb-6">
             <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-4 min-h-[2.5rem] md:min-h-[4rem]">
