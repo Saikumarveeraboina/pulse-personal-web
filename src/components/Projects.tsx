@@ -130,17 +130,11 @@ const Projects = () => {
                 </CardContent>
                 <CardFooter className="flex space-x-4">
                   <Button 
-                    className="flex-1 gradient-electric hover:scale-105 transition-transform duration-300"
-                    onClick={() => window.open(project.demoUrl, "_blank")}
-                  >
-                    Live Demo
-                  </Button>
-                  <Button 
                     variant="outline"
-                    className="flex-1 border-electric-400 text-electric-400 hover:bg-electric-50 hover:scale-105 transition-all duration-300"
+                    className="w-full border-electric-400 text-electric-400 hover:bg-electric-50 hover:scale-105 transition-all duration-300"
                     onClick={() => window.open(project.githubUrl, "_blank")}
                   >
-                    GitHub
+                    View GitHub
                   </Button>
                 </CardFooter>
               </Card>
@@ -195,18 +189,11 @@ const Projects = () => {
                 <CardFooter className="flex space-x-2 pt-0">
                   <Button 
                     size="sm"
-                    className="flex-1 gradient-purple text-xs hover:scale-105 transition-transform duration-300"
-                    onClick={() => window.open(project.demoUrl, "_blank")}
-                  >
-                    Demo
-                  </Button>
-                  <Button 
-                    size="sm"
                     variant="outline"
-                    className="flex-1 border-purple-400 text-purple-400 hover:bg-purple-50 text-xs hover:scale-105 transition-all duration-300"
+                    className="w-full border-purple-400 text-purple-400 hover:bg-purple-50 text-xs hover:scale-105 transition-all duration-300"
                     onClick={() => window.open(project.githubUrl, "_blank")}
                   >
-                    Code
+                    View Code
                   </Button>
                 </CardFooter>
               </Card>
