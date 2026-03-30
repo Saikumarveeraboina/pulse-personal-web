@@ -11,7 +11,6 @@ const Portfolio = () => {
     <div className="min-h-screen bg-background text-foreground">
       <Navbar />
       <Hero />
-      
       <About />
       <Skills />
       <Projects />
